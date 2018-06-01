@@ -1,0 +1,37 @@
+h1 {
+    text-shadow: 0 0 15px red;
+    font-size: 60pt;
+    font-family: "Georgia', serif";
+}
+
+#companypic {
+    float:right
+    width:200px;
+    height:200px;
+}
+#motto {
+    min-height:200px;
+    background: url("http://yallpolitics.com/wp-content/uploads/2018/01/heartbeat-.jpg");
+    color:black;
+    text-align: center;
+}
+body {
+    background: url("http://yallpolitics.com/wp-content/uploads/2018/01/heartbeat-.jpg");
+}
+#grid {
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 500px;
+}
+iframe {
+    margin-left:500px;
+}
+.card {
+    width:400px;
+    height:400px;
+}
+#navy{
+    background-color: red;
+}
